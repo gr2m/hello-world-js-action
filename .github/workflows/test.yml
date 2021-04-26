@@ -19,5 +19,5 @@ jobs:
         id: hello_world_greeting
         with:
           greeting: "Gregor"
-      - run: node -e 'assert.equal("${{ steps.hello_world.outputs.greeting }}", "Hello, JavaScript!")'
+      - run: node -e 'assert.equal("${{ steps.hello_world.outputs.greeting }}", "Hello, world!")'
       - run: node -e 'assert.equal("${{ steps.hello_world_greeting.outputs.greeting }}", "Hello, Gregor!")'

@@ -1,4 +1,4 @@
-name: Hello, JS!
+name: Hello, world! (JS)
 description: "A simple GitHub Action written in JavaScript"
 branding:
   icon: "clipboard"
@@ -7,7 +7,7 @@ inputs:
   greeting:
     description: "Custom media type in the Accept header"
     required: false
-    default: "JavaScript"
+    default: "world"
 outputs:
   greeting:
     description: "The full greeting text"
