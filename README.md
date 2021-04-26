@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS – see [#1](https://github.com/gr2m/hello-world-action/pull/1) | [preview](https://github.com/gr2m/hello-world-action/tree/initial-version#readme)
-
 # Hello World Action
 
 > A simple GitHub Action written in JavaScript
