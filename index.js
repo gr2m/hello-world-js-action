@@ -1,4 +1,4 @@
-import core from "@actions/core";
+const core = require("@actions/core");
 
 const greeting = core.getInput("greeting");
 const output = `Hello, ${greeting}!`;

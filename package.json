@@ -2,7 +2,6 @@
   "name": "hello-world-js-action",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "A simple GitHub Action written in JavaScript",
   "main": "dist/index.js",
   "scripts": {
