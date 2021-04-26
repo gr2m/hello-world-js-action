@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-action",
+  "name": "hello-world-js-action",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "ncc build index.js -o dist"
   },
-  "repository": "github:gr2m/hello-world-action",
+  "repository": "github:gr2m/hello-world-js-action",
   "keywords": [
     "github-action"
   ],
