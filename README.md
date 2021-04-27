@@ -56,4 +56,4 @@ The most important learning of using Node to create a GitHub Action is that you 
 
 ## License
 
-[MIT](LICENSE)
+[ISC](LICENSE)
