@@ -2,7 +2,7 @@
 
 > A simple GitHub Action written in JavaScript
 
-[![Build Status](https://github.com/gr2/hello-world-js-action/workflows/Test/badge.svg)](https://github.com/gr2/hello-world-js-action/actions)
+[![Build Status](https://github.com/gr2m/hello-world-js-action/actions/workflows/test.yml/badge.svg)](https://github.com/gr2m/hello-world-js-action/actions/workflows/test.yml)
 
 ## Usage
 
