@@ -11,7 +11,7 @@ name: Hello world!
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   sayHelloWorld:
@@ -27,7 +27,7 @@ name: Hello world!
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   sayHelloWorld:
