@@ -48,7 +48,7 @@ Recommended reading: The official "[Creating a JavaScript action](https://docs.g
 2. It uses the [`@actions/core`](https://github.com/actions/toolkit/tree/main/packages/core) module to showcase how to use dependencies
 3. It supports a `greeting` input
 4. It writes the total greeting to outputs
-5. It uses `@vercel/ncc` to compile the code and its dependencies to a single file that can be executed as a standalone GitHub Action.
+5. It uses [`@vercel/ncc`](https://github.com/vercel/ncc) to compile the code and its dependencies to a single file that can be executed as a standalone GitHub Action.
 
 The most important learning of using Node to create a GitHub Action is that you cannot require/import dependencies. When someone uses your action as part of their workflow, your action's dependencies are not automatically installed. Hence the build step using `@vercel/ncc`.
 
