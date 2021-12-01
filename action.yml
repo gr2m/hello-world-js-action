@@ -12,5 +12,5 @@ outputs:
   greeting:
     description: "The full greeting text"
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
