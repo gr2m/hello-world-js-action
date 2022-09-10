@@ -1,4 +1,5 @@
-on: [push]
+"on":
+  - push
 name: Test
 jobs:
   readmeExamples:
@@ -8,16 +9,20 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2
         with:
-          node-version: 14
-      - run: "npm ci"
-      - run: "npm run build"
-      - name: "Minimal README example"
+          node-version: lts/*
+      - run: npm ci
+      - run: npm run build
+      - name: Minimal README example
         uses: ./
         id: hello_world
-      - name: "README example with custom greeting"
+      - name: README example with custom greeting
         uses: ./
         id: hello_world_greeting
         with:
-          greeting: "Gregor"
-      - run: node -e 'assert.equal("${{ steps.hello_world.outputs.greeting }}", "Hello, world!")'
-      - run: node -e 'assert.equal("${{ steps.hello_world_greeting.outputs.greeting }}", "Hello, Gregor!")'
+          greeting: Gregor
+      - run: >-
+          node -e 'assert.equal("${{ steps.hello_world.outputs.greeting }}",
+          "Hello, world!")'
+      - run: >-
+          node -e 'assert.equal("${{ steps.hello_world_greeting.outputs.greeting
+          }}", "Hello, Gregor!")'
