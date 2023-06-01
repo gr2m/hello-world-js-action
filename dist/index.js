@@ -467,6 +467,7 @@ const output = `Hello, ${greeting}!`;
 
 core.info(output);
 
+core.debug(`Using Node ${process.version}`);
 core.setOutput("greeting", output);
 
 })();
